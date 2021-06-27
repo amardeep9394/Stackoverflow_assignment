@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Search Questions</h2>
+
+<form method="GET" action="question/">
+    
+    <table>
+        <tr>
+            <td>
+                <label for="page">Page:</label><br>
+            </td>
+            <td>
+                <input type="text" id="page" name="q_page" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tagged">Tagged:</label><br>
+            </td>
+            <td>
+                <input type="text" id="tagged" name="tagged" value=""><label for="tagged">enter tag name like Python or django or sql etc. anyone</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="order">Order:</label><br>
+            </td>
+            <td>
+                <select name="order" id="order">
+                    <option value="asc">asc</option>
+                    <option value="desc">desc</option>
+  
+                </select>
+            </td>
+        </tr>
+        <tr >
+            <td colspan=2><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+
+
+
+</body>
+</html>
